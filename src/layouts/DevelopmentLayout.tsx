@@ -3,13 +3,11 @@ import { SlideComponent } from "@/types/presentation";
 
 interface DevelopmentLayoutProps {
   slides: SlideComponent[];
-  onEdit: (slideId: string) => void;
   onPreview: (slideId: string) => void;
 }
 
 export const DevelopmentLayout: React.FC<DevelopmentLayoutProps> = ({
   slides,
-  onEdit,
   onPreview,
 }) => {
   return (
@@ -21,13 +19,6 @@ export const DevelopmentLayout: React.FC<DevelopmentLayoutProps> = ({
             className="relative rounded-md border border-gray-700 bg-cursor-prompt p-4"
           >
             <div className="absolute right-2 top-2 flex space-x-2 z-10">
-              <button
-                onClick={() => onEdit(slide.metadata.id)}
-                className="rounded bg-blue-600 p-1 text-xs text-white hover:bg-blue-700"
-                title="Edit Slide"
-              >
-                Edit
-              </button>
               <button
                 onClick={() => onPreview(slide.metadata.id)}
                 className="rounded bg-purple-600 p-1 text-xs text-white hover:bg-purple-700"

@@ -61,9 +61,6 @@ const AppRoutes: React.FC = () => {
           >
             <DevelopmentLayout
               slides={slideRegistry.slides}
-              onEdit={(id) =>
-                window.open(slideRegistry.getSlideById(id)?.metadata.sourceFile)
-              }
               onPreview={(id) => navigate(`/dev/preview/${id}`)}
             />
           </PresentationLayout>

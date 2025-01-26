@@ -1,0 +1,25 @@
+The topics I'd like to speak about are
+- a text snippet to include in all prompts to Claude (I find this to be the most important thing)
+   - this is "ask any clarifying questions you need to get a solution with high confidence"
+      - speak to the pros and cons of this approach
+      - show Claude's own analysis of it's responses and what it is trying to achieve when including this text snippet in prompts, rather than in settings or .cursorrules
+      - show examples of asking claude for solutions with and without that text snippet
+      - offer walkthroughs in how to add this text snippet easily on mac and windows (this can be much less in depth and simply mentioned, while allowing the audience to read the slides in depth after the presentation)
+
+- discuss how to have Claude help create your .cursorrules file overtime
+
+- how to use Claude to simplify mentally taxing tasks and reserve that brain power for architectural decisions
+   - this is things like asking Claude to create a one liner array filter on a complicated nested object to get a value out
+   - writing a tanstack react-query useQuery to retrieve data from a backend endpoint written in an unfamiliar language
+   - using preivously files as template references for Claude to help create react/typescript ui components quickly
+   - writing / debugging / refactoring unit tests
+
+- discuss how Claude can be misleading 
+    - if there are multiple documentation versions
+      - requires you to be an expert in that domain or library so you do not blindly trust it's output
+    - if your codebase doesn't follow a library default
+    - conclude that you cannot rely on Claude to be the expert, but you have to have the expertise to drive Claude to good solutions within your codebase
+
+miscelaneous thoughts
+- how many R's are in the word strawberry?
+    - Claude, and all llms, while impressive, are at their core a statistical model to guess the next word looped over and over again
