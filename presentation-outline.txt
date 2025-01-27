@@ -1,0 +1,60 @@
+# Mastering Claude AI in Development (20 minutes)
+
+## 1. Opening (2-3 minutes)
+- Introduction
+- The "strawberry" example
+  - Demonstrates Claude is a statistical model
+  - Sets expectations about AI capabilities
+- Common AI assistant frustrations
+  - Incomplete answers
+  - Assumptions without context
+  - The answer merry-go-round
+
+## 2. Main Point: The Power of Clarifying Questions (8-10 minutes)
+- Before/After Examples:
+  a. Array Manipulation
+     - Without: Basic filter/map solution
+     - With: Robust, type-safe, error-handled solution
+  
+  b. React Query Setup
+     - Without: Basic query implementation
+     - With: Complete solution with error handling, types, and caching strategy
+  
+  c. Unit Test Creation
+     - Without: Basic test structure
+     - With: Comprehensive test suite with edge cases
+     
+- Claude's Self-Analysis
+  - Response patterns with/without clarifying questions
+  - Impact on solution quality
+
+## 3. Supporting Points (5-7 minutes)
+- .cursorrules Evolution
+  - How to gradually improve your config
+  - Using Claude to understand and modify rules
+
+- Mental Load Optimization
+  - Delegating routine complexity
+  - Examples of tasks to offload
+  - When to use Claude vs. when to think deeply
+
+## 4. Limitations & Best Practices (2-3 minutes)
+- Version Conflicts
+  - Multiple documentation versions
+  - Codebase-specific patterns
+
+- Trust & Expertise
+  - When to trust Claude's output
+  - Importance of domain knowledge
+  - Using Claude as a tool, not a replacement
+
+## Key Takeaways
+- Always include "ask any clarifying questions you need to get a solution with high confidence"
+- Use Claude for routine complexity
+- Maintain expertise to guide Claude effectively
+
+## Notes
+- All code examples in JavaScript/React/TypeScript
+- Focus on real-world, relatable scenarios
+- Keep examples concise but meaningful
+- Include before/after comparisons 

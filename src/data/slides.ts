@@ -4,18 +4,41 @@ import { KeyFeaturesSlide } from "@/components/slides/KeyFeaturesSlide";
 import { CodeExampleSlide } from "@/components/slides/CodeExampleSlide";
 import { ImprovedCodeExampleSlide } from "@/components/slides/ImprovedCodeExampleSlide";
 import { ResponsePatternsSlide } from "@/components/slides/ResponsePatternsSlide";
+import { StrawberrySlide } from "@/components/slides/StrawberrySlide";
+import { OpeningSlide } from "@/components/slides/OpeningSlide";
 
 const slideArray: SlideComponent[] = [
   {
     component: TitleSlide,
     metadata: {
       id: "title",
-      title: "",
+      title: "Title",
       sourceFile: "src/components/slides/TitleSlide.tsx",
       estimatedTime: 1,
-      transition: "zoom",
+      transition: "fade",
+    },
+  },
+  {
+    component: OpeningSlide,
+    metadata: {
+      id: "opening",
+      title: "Opening",
+      sourceFile: "src/components/slides/OpeningSlide.tsx",
+      estimatedTime: 3,
+      transition: "fade",
+      notes: "Sets up the context and common challenges with AI assistants",
+    },
+  },
+  {
+    component: StrawberrySlide,
+    metadata: {
+      id: "strawberry-example",
+      title: "Understanding Claude's Nature",
+      sourceFile: "src/components/slides/StrawberrySlide.tsx",
+      estimatedTime: 2,
+      transition: "fade",
       notes:
-        "Opening slide introducing the presentation on Mastering Cursor IDE with Claude AI",
+        "Demonstrates how Claude is fundamentally a statistical model, even for simple tasks",
     },
   },
   {
